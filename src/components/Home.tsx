@@ -1,5 +1,6 @@
 import { css } from "@emotion/css";
 import myself from "../assets/myself-modified.png";
+import commonStyles from "./commonStyles";
 
 const styles = {
   introText: css`
@@ -25,7 +26,7 @@ const styles = {
 
 export const Home = () => {
   return (
-    <>
+    <div className={commonStyles.container}>
       <div className={styles.imgContainer}>
         <img className={styles.img} src={myself} />
       </div>
@@ -42,6 +43,6 @@ export const Home = () => {
         opportunities, feel free to connect with me on LinkedIn and explore my
         projects on GitHub. Let's bring your visions to life together.
       </p>
-    </>
+    </div>
   );
 };
