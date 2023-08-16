@@ -6,6 +6,7 @@ const styles = {
   introText: css`
     color: #ffffff;
     font-size: 5rem;
+    font-weight: bold;
   `,
   text: css`
     font-size: 2rem;
@@ -26,7 +27,7 @@ const styles = {
 
 export const Home = () => {
   return (
-    <div className={commonStyles.container}>
+    <div className={commonStyles.container} id="Home">
       <div className={styles.imgContainer}>
         <img className={styles.img} src={myself} />
       </div>
@@ -40,8 +41,8 @@ export const Home = () => {
       </p>
       <p className={styles.text}>
         If you're interested in collaboration, contract work, or job
-        opportunities, feel free to connect with me on LinkedIn and explore my
-        projects on GitHub. Let's bring your visions to life together.
+        opportunities, feel free to connect with me on LinkedIn. Let's bring
+        your visions to life together.
       </p>
     </div>
   );
