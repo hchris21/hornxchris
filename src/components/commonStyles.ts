@@ -6,12 +6,12 @@ const commonStyles = {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    height: 100vh;
     margin: 2%;
     color: #ffffff;
-    border-radius: 5%;
+    border-radius: 1.5rem;
     background: #101820;
-    padding: 0 10%;
+    padding: 5rem 5rem;
+    font-size: 2rem;
   `,
 };
 

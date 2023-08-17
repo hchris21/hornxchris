@@ -9,28 +9,23 @@ const styles = {
     font-weight: bold;
   `,
   text: css`
-    font-size: 2rem;
     margin: 0 0 1.5rem 0;
     padding: 0;
   `,
   name: css`
     color: #05f1f9;
-  `,
-  imgContainer: css`
-    height: 33%;
+    font-style: italic;
   `,
   img: css`
-    width: 100%;
-    height: 100%;
+    width: 20rem;
+    margin-bottom: 1.5rem;
   `,
 };
 
 export const Home = () => {
   return (
     <div className={commonStyles.container} id="Home">
-      <div className={styles.imgContainer}>
-        <img className={styles.img} src={myself} />
-      </div>
+      <img className={styles.img} src={myself} />
       <div className={styles.introText}>
         Hey there, I am <span className={styles.name}>Chris.</span>
       </div>
