@@ -12,6 +12,11 @@ const commonStyles = {
     background: #101820;
     padding: 5rem 5rem;
     font-size: 2rem;
+
+    @media only screen and (max-width: 950px) {
+      padding: 1rem;
+      margin: 2% 0;
+    }
   `,
 };
 

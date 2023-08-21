@@ -5,8 +5,8 @@ const App = () => {
     <>
       <Header />
       <Home />
-      <Experience />
       <About />
+      <Experience />
       <Contact />
     </>
   );

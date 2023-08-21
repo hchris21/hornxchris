@@ -1,6 +1,7 @@
 import { css } from "@emotion/css";
-import myself from "../assets/myself-modified.png";
-import commonStyles from "./commonStyles";
+import { Link } from "react-scroll";
+import myself from "../../assets/myself-modified.png";
+import commonStyles from "../commonStyles";
 
 const styles = {
   introText: css`
@@ -15,6 +16,12 @@ const styles = {
   name: css`
     color: #05f1f9;
     font-style: italic;
+  `,
+  connect: css`
+    color: #05f1f9;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
   `,
   img: css`
     width: 20rem;
@@ -36,8 +43,13 @@ export const Home = () => {
       </p>
       <p className={styles.text}>
         If you're interested in collaboration, contract work, or job
-        opportunities, feel free to connect with me on LinkedIn. Let's bring
-        your visions to life together.
+        opportunities, feel free to{" "}
+        <span className={styles.connect}>
+          <Link to="Contact" smooth={true}>
+            connect with me
+          </Link>
+        </span>
+        , so that we can bring your visions to life together.
       </p>
     </div>
   );

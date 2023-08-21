@@ -4,12 +4,12 @@ import { Link } from "react-scroll";
 const styles = {
   listItem: css`
     cursor: pointer;
-    margin: 0 3rem;
-    font-size: 1.5rem;
+    margin: 0 5rem;
+    font-size: 2rem;
   `,
   navBar: css`
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     list-style: none;
     font-weight: bold;
   `,
@@ -23,8 +23,8 @@ const styles = {
 export const Header = () => {
   const navItems = [
     { id: 1, title: "Home" },
-    { id: 2, title: "Experience" },
-    { id: 3, title: "About me" },
+    { id: 2, title: "About me" },
+    { id: 3, title: "Experience" },
     { id: 4, title: "Contact" },
   ];
 
