@@ -32,10 +32,13 @@ export const Contact = () => {
         <h3>Email address: </h3>
         <Mailto email="hornchris21@yahoo.com">hornchris21@yahoo.com</Mailto>
         <h3>Social media: </h3>
-        <a href="https://github.com/hchris21">
+        <a href="https://github.com/hchris21" target="_blank">
           <img className={styles.img} src={github} />
         </a>
-        <a href="https://www.linkedin.com/in/christopher-horn-a559b9175/">
+        <a
+          href="https://www.linkedin.com/in/christopher-horn-a559b9175/"
+          target="_blank"
+        >
           <img className={styles.img} src={linkedin} width={50} />
         </a>
       </div>
