@@ -1,5 +1,4 @@
 import { css } from "@emotion/css";
-import { Link } from "react-scroll";
 import myself from "../../assets/myself-modified.png";
 import commonStyles from "../commonStyles";
 
@@ -37,19 +36,14 @@ export const Home = () => {
         Hey there, I am <span className={styles.name}>Chris.</span>
       </div>
       <p className={styles.text}>
-        I am a passionate fullstack web engineer, specializing in JavaScript
-        technologies like React.js and Node.js. I love turning ideas into
-        digital realities.
+        Welcome to my digital playground! I've always been captivated by the
+        magic of technology. From my early days of tinkering with code to
+        crafting complex web solutions today, I've been on an exhilarating
+        journey of turning ideas into digital realities.{" "}
       </p>
       <p className={styles.text}>
-        If you're interested in collaboration, contract work, or job
-        opportunities, feel free to{" "}
-        <span className={styles.connect}>
-          <Link to="Contact" smooth={true}>
-            connect with me
-          </Link>
-        </span>
-        , so that we can bring your visions to life together.
+        Ready to dive into the world of technology with me? Explore my portfolio
+        to see how I bring ideas to life.
       </p>
     </div>
   );
