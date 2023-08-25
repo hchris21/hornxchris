@@ -3,7 +3,7 @@ import { Divider } from "..";
 
 export const Experience = () => {
   return (
-    <div className={commonStyles.container} id="Experience">
+    <section className={commonStyles.container} id="Experience">
       <h1>Experience</h1>
       <Divider />
       <h2>
@@ -58,6 +58,6 @@ export const Experience = () => {
       igniting the spark of innovation. With each mentorship session, I empower
       fellow engineers to tread the path of progress, fostering an environment
       where growth isn't just a goal – it's a way of life.
-    </div>
+    </section>
   );
 };

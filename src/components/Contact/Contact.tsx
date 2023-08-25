@@ -21,7 +21,7 @@ const Mailto = ({ email, children }: { email: string; children: string }) => {
 
 export const Contact = () => {
   return (
-    <div className={commonStyles.container} id="Contact">
+    <section className={commonStyles.container} id="Contact">
       <h1>Contact</h1>
       <Divider />
       <p>
@@ -42,6 +42,6 @@ export const Contact = () => {
           <img className={styles.img} src={linkedin} width={50} />
         </a>
       </div>
-    </div>
+    </section>
   );
 };

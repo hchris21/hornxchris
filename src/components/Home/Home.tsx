@@ -30,7 +30,7 @@ const styles = {
 
 export const Home = () => {
   return (
-    <div className={commonStyles.container} id="Home">
+    <section className={commonStyles.container} id="Home">
       <img className={styles.img} src={myself} />
       <div className={styles.introText}>
         Hey there, I am <span className={styles.name}>Chris.</span>
@@ -45,6 +45,6 @@ export const Home = () => {
         Ready to dive into the world of technology with me? Explore my portfolio
         to see how I bring ideas to life.
       </p>
-    </div>
+    </section>
   );
 };

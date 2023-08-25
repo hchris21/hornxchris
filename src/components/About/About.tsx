@@ -3,7 +3,7 @@ import { Divider } from "..";
 
 export const About = () => {
   return (
-    <div className={commonStyles.container} id="About me">
+    <section className={commonStyles.container} id="About me">
       <h1>About me</h1>
       <Divider />
       <div>
@@ -61,6 +61,6 @@ export const About = () => {
         innovation, and never settles for mediocrity, you've come to the right
         place. Let's code the future together!
       </div>
-    </div>
+    </section>
   );
 };
