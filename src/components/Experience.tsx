@@ -63,11 +63,11 @@ export const Experience = () => {
         <CardTitle className="text-6xl italic">Experience</CardTitle>
       </CardHeader>
       <CardContent className="flex flex-col">
-        <h2>
+        <p className="font-bold text-5xl my-2">
           March 2020 - Present: Fullstack Web Engineer at Travelport (via
           Outsourcing Company)
-        </h2>
-        <p>
+        </p>
+        <p className="my-4">
           {" "}
           Embarking on a journey through the dynamic travel industry, I've had
           the privilege of steering the development of a groundbreaking Point of
