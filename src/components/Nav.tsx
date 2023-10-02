@@ -10,7 +10,7 @@ export const Nav = () => {
   ];
 
   return (
-    <header className="hidden sm:block">
+    <header className="hidden sm:block w-full">
       <nav>
         <ul className="flex justify-center font-bold list-none">
           {navItems.map((item) => (

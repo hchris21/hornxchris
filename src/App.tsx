@@ -5,6 +5,7 @@ import {
   Home,
   Nav,
   ScrollToTop,
+  ThemeToggle,
   ThemeProvider,
 } from "./components";
 
@@ -12,7 +13,10 @@ const App = () => {
   return (
     <ThemeProvider>
       <ScrollToTop />
-      <Nav />
+      <div className="flex flex-col justify-center items-center">
+        <Nav />
+        <ThemeToggle />
+      </div>
       <Home />
       <About />
       <Experience />
