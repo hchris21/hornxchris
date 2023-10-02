@@ -1,9 +1,9 @@
 import { CardContainer } from "@/components/shared";
 import { CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { sectionIds } from "@/lib/sectionIds";
-import github from "../../public/github.svg";
-import linkedin from "../../public/linkedin.svg";
-import mail from "../../public/mail.svg";
+import github from "../assets/github.svg";
+import linkedin from "../assets/linkedin.svg";
+import mail from "../assets/mail.svg";
 
 export const Contact = () => {
   return (

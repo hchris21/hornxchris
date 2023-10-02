@@ -1,4 +1,4 @@
-import myself from "../../public/myself-modified.png";
+import myself from "../assets/myself-modified.png";
 
 import { CardContainer } from "@/components/shared";
 import { CardContent } from "@/components/ui/card";
