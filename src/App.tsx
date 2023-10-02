@@ -4,12 +4,14 @@ import {
   Experience,
   Home,
   Nav,
+  ScrollToTop,
   ThemeProvider,
 } from "./components";
 
 const App = () => {
   return (
     <ThemeProvider>
+      <ScrollToTop />
       <Nav />
       <Home />
       <About />
